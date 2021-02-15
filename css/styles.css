@@ -1,0 +1,316 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+  box-sizing: border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+	background: black;
+}
+body {
+	line-height: 1;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.topnav {
+  z-index: 99;
+  width: 100%;
+  min-width: 1280px;
+  height: 68px;
+  background-color: #ffffff;
+	overflow: hidden;
+	display: inline-flex;
+	align-items: center;
+}
+
+.loginbutton {
+	display: inline;
+	position: absolute;
+	width: 100px;
+	height: 40px;
+	margin-right: 30px;
+	right: 0;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	font-family: "Segoe UI",Arial,sans-serif;
+	font-size: 18px;
+	letter-spacing: 1px;
+	border-style: solid;
+	border-radius: 5px;
+  cursor: pointer;
+	transition: .3s;
+	transition-timing-function: ease;
+}
+.loginbutton:hover {
+	color: #ffc154;
+	border-color: #ffc154;
+}
+
+#navbar {
+    position: sticky;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+    border-left: none;
+    border-right: none;
+    z-index: 100;
+    height: 46px;
+    box-shadow: 0 3px 6px 0 rgb(97 56 0 / 41%);
+    background-color: rgba(10,10,10,0.7);
+}
+
+.logo {
+    margin-left: 30px;
+    margin-right: -60px;
+    float: left;
+    width: 280px;
+}
+
+#navbar div.items {
+  display: inline-flex;
+}
+
+#navbar div.items .button {
+    margin: 0 18px;
+    align-items: center;
+    position: relative;
+    line-height: 48px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size: 16px;
+    letter-spacing: 0;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+		transition: all .2s ease-in-out;
+}
+
+#navbar div.items a {
+  cursor: pointer;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#navbar div.items .first {
+  margin-left: 60px;
+  float: left;
+}
+
+#navbar div.items .button:hover, #navbar div.items .active, .dropdown:hover .button {
+    text-shadow: 0 0 6px #ffc154, 0 0 10px #ffc154, 0 0 15px #ffc154;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 7px ;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 10px;
+  font-family: "Segoe UI",Arial,sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #FFCA6D;
+  color: #7E5800;
+  border-radius: 2px;
+
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  #navbar div.items{
+    display: none;
+  }
+  #navbar .search {
+    align-content: center;
+  }
+}
+
+/* Search Bar */
+#navbar div.search {
+  position: absolute;
+  display: inline-flex;
+  right: 10px;
+  float: right;
+  height: 85%;
+  width: 300px;
+  align-items: center;
+  background: #f2f2f2;
+  border-radius: 5px;
+  z-index: 2;
+  opacity: 0.9;
+}
+
+#navbar div.search input {
+  height: 100%;
+  width: 260px;
+  border: none;
+  outline: none;
+  padding: 0 10px;
+  color: #000;
+  font-size: 16px;
+  border-radius: 5px 0 0 5px;
+}
+
+#navbar .search .icon {
+  height: 96%;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+#navbar .search .icon:hover {
+  background: #e6e6e6;
+}
+
+#navbar .search .icon span {
+  color: #222222;
+  font-size: 18px;
+}
+
+#nav_login {
+	background-color: #f1f1f1;
+  color: #000;
+}
+
+/*=========== START ============*/
+
+h1, h2, h3, h4, h5 {
+  font-weight: bold;
+  font-family: Segoe UI;
+}
+h1 {
+  color: white;
+  font-size: 35px;
+	padding: 14px 20px 0px 10px;
+}
+h2 {
+  color: #0061bc;
+  padding: 5px 20px 0px 10px;
+  font-size: 30px;
+}
+h3 {
+  margin: 0px 0px 10px 0px;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 1.5;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("../img/genshin_06_4K.jpg");
+  background-size: cover;
+}
+.userauthen {
+	background-image: linear-gradient(to right, #f6f6f6 , #f6f6f6);
+}
+main {
+  padding: 40px;
+  max-width: 1300px;
+  margin: auto;
+	left: 10;
+}
+
+
+p {
+  margin: 0px 0px 10px 0px;
+}
+label {
+  font-size: 14px;
+}
+
+input[type=number], textarea {
+  background-color: #f2f2f2;
+  border: none;
+  min-width: 200px;
+}
+
+#about {
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  height: 450px;
+  padding: 10px;
+  background: #445175;
+  border-radius: 15px;
+}
+
+/*=========== LOGIN PAGE ============*/
+#content {
+	min-width: 700px;
+	align-self: center;
+  border: #ccc solid;
+  border-width: 0 1px 1px;
+  margin: 0 auto 19px;
+  max-width: 768px;
+	background-color: #fff;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+  padding: 25px 0;
+  width: 100%;
+}
+
+.auth-content {
+		float: left;
+		min-width: 200px;
+		max-width: 350px;
+    padding-bottom: 0;
+		background-color: #fff;
+    padding: 14px 18px;
+		margin: 0 25px 25px;
+		margin-bottom: 15px;
+}
