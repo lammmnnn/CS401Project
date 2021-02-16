@@ -24,8 +24,8 @@
       <div class="dropdown">
         <a class="button">CHARACTERS</a>
         <div class="dropdown-content">
-          <a href="/api/pcharacter.php">Playable Characters</a>
-          <a href="/api/ucharacter.php">Unreleased Characters</a>
+          <a href="./pcharacter.php">Playable Characters</a>
+          <a href="./ucharacter.php">Unreleased Characters</a>
         </div>
       </div>
       <div class="dropdown">
