@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Sign in | GI Fanbase</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body class="userauthen">
   <div class="topnav">
