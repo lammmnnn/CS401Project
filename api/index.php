@@ -8,7 +8,7 @@
 <html>
 <head>
     <title>Genshin Impact Fanbase | XLK</title>
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
   <div class="topnav">
@@ -16,7 +16,7 @@
       <img src="img/mainlogo2.png" height="64" alt=''>
     </div>
     <h2>Fanbase by <span style="color: #007BEF;">XLK</span></h2>
-    <a class="loginbutton" href="login.php">Sign in</a>
+    <a class="loginbutton" href="/api/login.php">Sign in</a>
   </div>
   <div id="navbar">
     <div class="items">
@@ -24,8 +24,8 @@
       <div class="dropdown">
         <a class="button">CHARACTERS</a>
         <div class="dropdown-content">
-          <a href="pcharacter.php">Playable Characters</a>
-          <a href="ucharacter.php">Unreleased Characters</a>
+          <a href="/api/pcharacter.php">Playable Characters</a>
+          <a href="/api/ucharacter.php">Unreleased Characters</a>
         </div>
       </div>
       <div class="dropdown">
