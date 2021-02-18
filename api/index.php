@@ -1,6 +1,6 @@
 <!DOCTYPE php>
 <?php
-  
+
 ?>
 
 <html>
@@ -11,7 +11,7 @@
 <body>
   <div class="topnav">
     <div class="logo">
-      <img src="img/mainlogo2.png" height="64" alt=''>
+      <img src="../img/mainlogo2.png" height="64" alt=''>
     </div>
     <h2>Fanbase by <span style="color: #007BEF;">XLK</span></h2>
     <a class="loginbutton" href="/api/login.php">Sign in</a>
@@ -51,6 +51,10 @@
 
   </div>
   </main>
+
+  <div class="footer">
+    <p>Footer</p>
+  </div>
 
 <!--  <script>resetCookies();</script>  -->
 
