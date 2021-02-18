@@ -50,6 +50,10 @@
   </div>
   </main>
 
+  <div class="footer">
+    <p>Footer</p>
+  </div>
+
 <!-- MAKE NAVBAR STICKY -->
     <script>
     window.onscroll = function() {myFunction()};
