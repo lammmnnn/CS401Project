@@ -2,12 +2,12 @@
 <html>
 <head>
     <title>Sign in | GI Fanbase</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body class="userauthen">
   <div class="topnav">
     <div class="logo">
-      <img src="img/mainlogo2.png" height="64" alt=''>
+      <img src="../img/mainlogo2.png" height="64" alt=''>
     </div>
     <h2>Fanbase by <span style="color: #007BEF;">XLK</span></h2>
   </div>
