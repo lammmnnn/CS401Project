@@ -1,19 +1,17 @@
 <!DOCTYPE php>
 <?php
-  //for ($j = 0; $j <= sizeof($cardSets[$cardSetChosen])-1; $j++) {
-  //    echo "<button class='card' id='c$j' onclick='cardselect($j)'>" . $cardSets[$cardSetChosen][$j] . "</button>";
-  //}
+
 ?>
 
 <html>
 <head>
     <title>Characters | Genshin Impact Fanbase | XLK</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
   <div class="topnav">
     <div class="logo">
-      <img src="img/mainlogo2.png" height="64" alt=''>
+      <img src="../img/mainlogo2.png" height="64" alt=''>
     </div>
     <h2>Fanbase by <span style="color: #007BEF;">XLK</span></h2>
   </div>
