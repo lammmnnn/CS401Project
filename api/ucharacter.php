@@ -27,14 +27,14 @@
         </div>
       </div>
       <div class="dropdown">
-        <a href="index.php" class="button">ITEMS</a>
+        <a class="button">ITEMS</a>
         <div class="dropdown-content">
           <a href="#">Link 1</a>
         </div>
       </div>
-      <a href="index.php" class="button second">GUIDES</a>
-      <a href="index.php" class="button">DPS CALCULATOR</a>
-      <a href="index.php" class="button">WORLD MAP</a>
+      <a href="" class="button second">GUIDES</a>
+      <a href="" class="button">DPS CALCULATOR</a>
+      <a href="" class="button">WORLD MAP</a>
     </div>
 
     <div class="search">
@@ -51,8 +51,10 @@
 
   </div>
   </main>
+  <div class="footer">
+    <p>Footer</p>
+  </div>
 
-<script>resetCookies();</script>
 
 <!-- MAKE NAVBAR STICKY -->
     <script>
