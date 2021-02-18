@@ -1,47 +1,70 @@
 <!DOCTYPE php>
+<?php
+?>
+
 <html>
 <head>
-    <title>Sign in | GI Fanbase</title>
+    <title>Characters | Genshin Impact Fanbase | XLK</title>
     <link rel="stylesheet" href="../css/styles.css">
 </head>
-<body class="userauthen">
+<body>
   <div class="topnav">
     <div class="logo">
       <img src="../img/mainlogo2.png" height="64" alt=''>
     </div>
     <h2>Fanbase by <span style="color: #007BEF;">XLK</span></h2>
+    <a class="loginbutton" href="/api/login.php">Sign in</a>
+  </div>
+  <div id="navbar">
+    <div class="items">
+      <a href="index.php" class="button first">HOME</a>
+      <div class="dropdown">
+        <a class="button active">CHARACTERS</a>
+        <div class="dropdown-content">
+          <a>Playable Characters</a>
+          <a href="ucharacter.php">Unreleased Characters</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <a class="button">ITEMS</a>
+        <div class="dropdown-content">
+          <a href="#">Link 1</a>
+        </div>
+      </div>
+      <a href="" class="button second">GUIDES</a>
+      <a href="" class="button">DPS CALCULATOR</a>
+      <a href="" class="button">WORLD MAP</a>
+    </div>
+
+    <div class="search">
+      <input type="search" placeholder="Search">
+      <label class="icon">
+        <span class="fas fa-search"></span>
+      </label>
+    </div>
+
   </div>
   <main>
-  <div id="content">
-	<section class="auth-content">
-		<h4>Sign in with a Social Account</h4>
-			<a class="button signup-provider-google" href="#"
-       data-crumb="SOmrNbjiQVY_bHRzL9tOtNawcwK5y4EObY7BSDKMoa4"
-       data-google-uri="/signin?method=google">
-				<img src="auth-assets/common/symbols/google-icon.svg" class="google-icon">
-				<span>Sign in with Google</span>
-			</a>
-	</section>
-	<section class="auth-content">
-		<h4>Sign In with Username</h4>
-			<form id="loginForm" action="/signin" method="POST">
-			<div class="input-container">
-				<input type="text" name="username" id="loginUsername" required="">
-        <label class="floating-label" for="loginUsername">Username</label>
-			</div>
-			<div class="input-container">
-				<input class="sign-in-password" type="password" name="password"
-        id="loginPassword" autocomplete="off" required="">
+  <div>
 
-        <label class="floating-label" for="loginPassword">Password</label>
-				<a class="forgotten-password" href="">Forgot password?</a>
-			</div>
-			<button class="form-submit" disabled="" id="loginSubmit" type="submit">SIGN IN
-			</button>
-		</form>
-	</section>
   </div>
   </main>
+
+<!-- MAKE NAVBAR STICKY -->
+    <script>
+    window.onscroll = function() {myFunction()};
+
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+    </script>
 
 </body>
 </html>
