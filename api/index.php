@@ -1,8 +1,6 @@
 <!DOCTYPE php>
 <?php
-  //for ($j = 0; $j <= sizeof($cardSets[$cardSetChosen])-1; $j++) {
-  //    echo "<button class='card' id='c$j' onclick='cardselect($j)'>" . $cardSets[$cardSetChosen][$j] . "</button>";
-  //}
+  
 ?>
 
 <html>
@@ -29,14 +27,14 @@
         </div>
       </div>
       <div class="dropdown">
-        <a href="index.php" class="button">ITEMS</a>
+        <a class="button">ITEMS</a>
         <div class="dropdown-content">
           <a href="#">Link 1</a>
         </div>
       </div>
-      <a href="index.html" class="button second">GUIDES</a>
-      <a href="index.html" class="button">DPS CALCULATOR</a>
-      <a href="index.html" class="button">WORLD MAP</a>
+      <a href="" class="button second">GUIDES</a>
+      <a href="" class="button">DPS CALCULATOR</a>
+      <a href="" class="button">WORLD MAP</a>
     </div>
 
     <div class="search">
