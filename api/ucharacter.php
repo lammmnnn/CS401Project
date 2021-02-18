@@ -14,6 +14,7 @@
       <img src="../img/mainlogo2.png" height="64" alt=''>
     </div>
     <h2>Fanbase by <span style="color: #007BEF;">XLK</span></h2>
+    <a class="loginbutton" href="/api/login.php">Sign in</a>
   </div>
   <div id="navbar">
     <div class="items">
