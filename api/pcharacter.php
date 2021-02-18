@@ -13,6 +13,7 @@
       <img src="../img/mainlogo2.png" height="64" alt=''>
     </div>
     <h2>Fanbase by <span style="color: #007BEF;">XLK</span></h2>
+    <a class="loginbutton" href="/api/login.php">Sign in</a>
   </div>
   <div id="navbar">
     <div class="items">
@@ -25,14 +26,14 @@
         </div>
       </div>
       <div class="dropdown">
-        <a href="index.php" class="button">ITEMS</a>
+        <a class="button">ITEMS</a>
         <div class="dropdown-content">
           <a href="#">Link 1</a>
         </div>
       </div>
-      <a href="index.php" class="button second">GUIDES</a>
-      <a href="index.php" class="button">DPS CALCULATOR</a>
-      <a href="index.php" class="button">WORLD MAP</a>
+      <a href="" class="button second">GUIDES</a>
+      <a href="" class="button">DPS CALCULATOR</a>
+      <a href="" class="button">WORLD MAP</a>
     </div>
 
     <div class="search">
